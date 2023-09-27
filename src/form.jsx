@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function form() {
+function Form() {
   const data = { name: "", email: "", password: "" };
   const [inputData, setInputData] = useState(data);
   return (
@@ -41,4 +41,4 @@ function form() {
   );
 }
 
-export default form;
+export default Form;

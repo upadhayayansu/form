@@ -1,9 +1,8 @@
 import "./App.css";
-
-import "./form";
+import Form from "./form";
 
 function App() {
-  return <form />;
+  return <Form />;
 }
 
 export default App;
